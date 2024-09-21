@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Quán Cafe</title>
+    <style>
+        body {
+            font-family:'Times New Roman';
+            margin: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left:  20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Example Cafe Menu</h1>
+    <hr size="1" width="100%" > 
+
+    <nav>
+        <a href="#starters">Starters</a> |
+        <a href="#main-courses">Main-Courses</a> |
+        <a href="#desserts">Desserts</a>
+    </nav>
+    <hr size="1" width="100%" >
+
+    <h2 id="starters">Starters</h2>
+
+        <li>Chestnut and Mushroom Goujons <ins>(v)</ins></li>
+        <li>Goat Cheese Salad <ins >(v)</ins></li>
+        <li>HONEY SOY CHICKEN KEBAS <ins>(V)</ins></li>
+        <li>Seafood Salad <ins>(v)</ins></li>
+    
+
+    <p class="back-to-top"><a href="#top"><b>Back to top</b></a></p>
+    <h2 id="main-courses">Main-courses</h2>
+  
+        <li>Spinach and Ricotta Roulade (v)</li>
+        <li>Beef Tournados with Mustard and Dill Sauce</li>
+        <li>Roast Chicken Salad</li>
+        <li>Icelandic Cod with Parsley Sauce</li>
+        <li>Mushroom Wellington (v)</li>
+        <p class="back-to-top"><a href="#top"><b>Back to top</b></a></p>
+
+    <h2 id="desserts">Desserts</h2>
+   
+        <li>Lemon Sorbet <ins>(v)</ins></li>
+        <li>Chocolate Mud Pie <ins>(v)</ins></li>
+        <li>Pecan Pie <ins>(v)</ins></li>
+        <li> Selection of Fine Chesses from Around the World <ins>(v)</li>
+    
+    <p  class="back-to-top"><a href="#top"><b>Back to top</b></a></p>
+    <footer>
+        <p>Items marked with a (v) are suitable for vegetarias</p>
+    </footer>
+</body>
+</html>
